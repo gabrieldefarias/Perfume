@@ -1,0 +1,107 @@
+body{background-color: #e3e3e3;}
+#estrutura{
+    margin: 0px 140px;
+}
+#estrutura #cabecalho{
+    background-image: url("../img/loja_de-perfume.jpg");
+    background-position: -400px -380px;
+    color: black;
+    font-size: 15pt;
+    font-family: Arial;
+    padding-top: 10px; /*espaçamento no topo*/
+    padding-left: 10px; /*espaçamento a esquerda*/
+    height: 160px; /*altura do nosso elemento*/
+}
+.titulo{
+    margin-top: 110px;
+}
+.paragrafo{
+    text-align: justify;
+    padding: 0px 20px;
+}
+#estrutura #menu ul{padding: 0px; margin: 0px;}
+#estrutura #menu li{
+    list-style: none;
+    width: 319px;
+    text-align: center;
+    padding: 0px 0px;
+    display: inline-block;
+}
+#estrutura #menu a{
+    font-family: arial;
+    font-size: 11pt;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    width: 100%;
+    display: inline-block;
+    padding: 8px 0px;
+}
+#estrutura #menu a:hover{ /* Só aparecerá quando o usuário passar o mouse no elemento */
+    background-color: white;
+    color: black;
+}
+#estrutura #menu .atual{
+    background-color: white;
+    color: black;
+}
+#estrutura #texto{
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+#estrutura #conteudo{
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+}
+#estrutura #conteudo img{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
+.conteudos{
+    padding: 0px 10px;
+}
+#estrutura #rodape{
+    padding: 10px;
+    background-color: rgb(0, 0, 153);
+    color: white;
+    text-align: center;
+}
+/*==================== Para o site ser responsivo ====================*/
+@media screen and (max-width: 600px){
+    #estrutura{
+        margin: 0px;
+    }
+    #estrutura #cabecalho{
+        width: 100%;
+        padding-top: 0px; /*espaçamento no topo*/
+        padding-left: 0px; /*espaçamento a esquerda*/
+        height: 300px;
+    }
+    .titulo{
+        margin-top: 0px;
+    }
+    #estrutura #conteudo{
+        flex-direction: column;
+    }
+    #estrutura #conteudo img{
+        width: 100%;
+        height: auto;
+    }
+    .conteudos{
+        padding: 0px;
+    }
+    #estrutura #menu li{
+        width: 100%;
+    }
+}
