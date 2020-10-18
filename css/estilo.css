@@ -61,7 +61,7 @@ body{background-color: #e3e3e3;} /* Cor do corpo do site */
 @media screen and (max-width: 600px){
     #estrutura{margin: 0px;}
     #estrutura #cabecalho{
-        width: 100%;
+        width: auto;
         padding-top: 0px; /*espaçamento no topo*/
         padding-left: 10px; /*espaçamento a esquerda*/
         height: 300px;
