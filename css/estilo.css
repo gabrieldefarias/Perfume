@@ -50,20 +50,6 @@ body{background-color: #e3e3e3;} /* Cor do corpo do site */
     border-radius: 10px;
     background-color: white;
 }
-#estrutura #conteudo{ /* 1° div */
-    margin: 10px 0px;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: white;
-    display: flex;
-}
-#estrutura #conteudo img{ /* Imagem dentro da 1° div */
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 200px;
-    height: auto;
-}
 .conteudos{padding: 0px 10px;} /* Texto dentro da 1° div */
 #estrutura #rodape{ /* Rodapé do site */
     padding: 10px;
@@ -81,8 +67,6 @@ body{background-color: #e3e3e3;} /* Cor do corpo do site */
         height: 300px;
     }
     .titulo{margin-top: 0px;}
-    #estrutura #conteudo{flex-direction: column;}
-    #estrutura #conteudo img{width: 100%; height: auto;}
     .conteudos{padding: 0px;}
     #estrutura #menu li{width: 100%;}
 }

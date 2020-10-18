@@ -17,14 +17,33 @@
     display: inline-block;
     padding: 8px 0px;
 }
-#estrutura #meu_menu a:hover{ /* Só aparecerá quando o usuário passar o mouse no elemento */
+#estrutura #meu_menu a:hover{
     background-color: blue;
     color: white;
 }
-#estrutura #meu_menu .atual{
+#estrutura #meu_menu .atual{ /* ul, li, a, a:hover, .atual, Configuração dos links */
     background-color: white;
     color: black;
 }
+#estrutura #conteudo{ /* 1° div */
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+}
+#estrutura #conteudo img{ /* Imagem dentro da 1° div */
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
+#estrutura #conteudo img:hover{ /* Faz a posição da foto mudar um pouco */
+    transform: translateY(-9px);
+}
 @media screen and (max-width: 600px){
     #estrutura #meu_menu li{width: 100%;}
+    #estrutura #conteudo{flex-direction: column;}
+    #estrutura #conteudo img{width: 100%; height: auto;}
 }
