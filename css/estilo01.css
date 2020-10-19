@@ -39,11 +39,22 @@
     width: 200px;
     height: auto;
 }
+#estrutura #fotos{
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px 0px;
+}
+#estrutura #fotos img{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: auto;
+}
 #estrutura #conteudo img:hover{ /* Faz a posição da foto mudar um pouco */
     transform: translateY(-9px);
 }
 @media screen and (max-width: 600px){
     #estrutura #meu_menu li{width: 100%;}
     #estrutura #conteudo{flex-direction: column;}
-    #estrutura #conteudo img{width: 100%; height: auto;}
 }

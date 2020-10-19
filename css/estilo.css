@@ -18,7 +18,7 @@ body{background-color: #e3e3e3;} /* Cor do corpo do site */
 #estrutura #menu ul{padding: 0px; margin: 0px;}
 #estrutura #menu li{
     list-style: none;
-    width: 319px;
+    width: 238px;
     text-align: center;
     padding: 0px 0px;
     display: inline-block;
@@ -69,4 +69,5 @@ body{background-color: #e3e3e3;} /* Cor do corpo do site */
     .titulo{margin-top: 0px;}
     .conteudos{padding: 0px;}
     #estrutura #menu li{width: 100%;}
+    .paragrafo{padding: 0px 10px;}
 }
