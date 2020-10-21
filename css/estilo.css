@@ -2,7 +2,7 @@ body{background-color: #e3e3e3;} /* Cor do corpo do site */
 #estrutura{margin: 0px 140px;} /* Espaço nas laterais do site */
 #estrutura #cabecalho{
     background-image: url("../img/loja_de-perfume.jpg");
-    background-position: -400px -380px;
+    background-position: -0px -11px;
     color: black;
     font-size: 15pt;
     font-family: Arial;
