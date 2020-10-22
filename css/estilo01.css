@@ -35,7 +35,7 @@
 }
 #estrutura #conteudo img{ /* Imagem dentro da 1° div */
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 200px;
     height: auto;
 }
@@ -46,7 +46,7 @@
 }
 #estrutura #fotos img{
     margin: 10px;
-    border: 1px solid black;
+    border: 5px solid black;
     border-radius: 20px;
     width: 200px;
     height: auto;

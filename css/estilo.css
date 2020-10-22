@@ -2,15 +2,15 @@ body{background-color: #e3e3e3;} /* Cor do corpo do site */
 #estrutura{margin: 0px 140px;} /* Espaço nas laterais do site */
 #estrutura #cabecalho{
     background-image: url("../img/loja_de-perfume.jpg");
-    background-position: -0px -11px;
+    background-position: -0px -0px;
     color: black;
     font-size: 15pt;
     font-family: Arial;
     padding-top: 10px; /*espaçamento no topo*/
     padding-left: 10px; /*espaçamento a esquerda*/
-    height: 160px; /*altura do nosso elemento*/
+    height: 170px; /*altura do nosso elemento*/
 }
-.titulo{margin-top: 110px;}
+.titulo{margin-top: 120px;}
 .paragrafo{
     text-align: justify;
     padding: 0px 20px;
@@ -33,7 +33,7 @@ body{background-color: #e3e3e3;} /* Cor do corpo do site */
     background-color: blue;
     width: 100%;
     display: inline-block;
-    padding: 8px 0px;
+    padding: 5px 0px;
 }
 #estrutura #menu a:hover{ /* Só aparecerá quando o usuário passar o mouse no elemento */
     background-color: white;
@@ -64,7 +64,7 @@ body{background-color: #e3e3e3;} /* Cor do corpo do site */
         width: auto;
         padding-top: 0px; /*espaçamento no topo*/
         padding-left: 10px; /*espaçamento a esquerda*/
-        height: 300px;
+        height: 180px;
     }
     .titulo{margin-top: 0px;}
     .conteudos{padding: 0px;}
